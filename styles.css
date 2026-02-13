@@ -161,7 +161,7 @@ header::before {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url("assets/header-bg.jpg");
+  background-image: url("assets/header-bg.jpeg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -686,6 +686,17 @@ footer {
     padding: 0.75rem 2rem;
     background-color: var(--text-dark);
   }
+   .login {
+     text-decoration: none;
+     color: inherit;
+   }
+.login button {
+  padding: 0.75rem 2rem;
+  background-color: var(--text-dark);
+ 
+
+   
+}
 
   header {
     margin-top: 0;
